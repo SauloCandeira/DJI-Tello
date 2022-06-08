@@ -51,5 +51,10 @@ A --> K[Tello-PY]
     <p><b><code>3D Printed DJI Tello Propellers. </code></b></p>
     <p><i>URL: https://www.youtube.com/watch?v=z6wkOHIcf2Q</i></p>
   </li> 
+  
+  <li>
+    <p><b><code>NFT Marketplace website using HTML CSS JS </code></b></p>
+    <p><i>URL: https://www.youtube.com/watch?v=f_jQvRUaffo</i></p>
+  </li> 
 
 </ul>
