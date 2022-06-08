@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/stryles/style.css">
+    <title>Tello-DJI</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="card">
+
+            <!-- Cores do shoeBackground-->
+            <div class="shoeBackground">
+
+
+              <!-- Cores do shoeBackground-->
+              <div class="gradients">
+                <div class="gradient second" color="blue"></div>
+                <div class="gradient" color="red"></div>
+                <div class="gradient" color="green"></div>
+                <div class="gradient" color="orange"></div>
+                <div class="gradient" color="black"></div>
+                <div class="gradient" color="helice"></div>
+              </div>
+              
+
+              <!-- Gradient Helixes
+              <div class="gradients-helices">
+                <div class="gradient helices" color="blue"></div>
+                <div class="gradient-helices" color="red"></div>
+                <div class="gradient-helices" color="green"></div>
+                <div class="gradient-helices" color="orange"></div>
+                <div class="gradient-helices" color="black"></div>
+              </div>
+              Gradient Helixes -->
+
+
+              <!-- <h1 class="nike">nike</h1> -->
+              <!-- <img src="./src/assets/logo.png" alt="Logo" class="logo" />-->
+              <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+
+              <!-- BODY -->
+              <img src="./src/assets/parts.png" alt="Shoe Blue" class="shoe show" color="blue"/>
+              <img src="./src/assets/parts.png" alt="Shoe Red" class="shoe" color="red"/>
+              <img src="./src/assets/parts.png" alt="Shoe Green" class="shoe" color="green"/>
+              <img src="./src/assets/parts.png" alt="Shoe Orange" class="shoe" color="orange"/>
+              <img src="./src/assets/parts.png" alt="Shoe Black" class="shoe" color="black"/>
+              
+              
+              <!-- HELICES -->
+              <img src="./src/assets/Helices.png" alt="Drone helice" class="shoe" color="helice"/>
+
+            </div>
+
+
+
+            <div class="info">
+
+              <!-- titulo e descrição-->
+              <div class="shoeName">
+                <div>
+                  <h1 class="big">TELLO - DJI</h1>
+                  <span class="new">new</span>
+                </div>
+                <h3 class="small">Mini-drone</h3>
+              </div>
+
+              <!-- DESCRIÇÃO DO PRODUTO-->
+              <div class="description">
+                <h3 class="title">Product Info</h3>
+                <p class="text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's.
+                </p>
+              </div>
+
+              <!-- ALTERAR COR DE FUNDO-->
+              <div class="color-container">
+                <h3 class="title">COR DO BODY</h3>
+                <div class="colors">
+                  <span class="color active" primary="#2175f5" color="blue"></span>
+                  <span class="color" primary="#f84848" color="red"></span>
+                  <span class="color" primary="#29b864" color="green"></span>
+                  <span class="color" primary="#ff5521" color="orange"></span>
+                  <span class="color" primary="#444" color="black"></span>
+                </div>
+              </div>
+
+              <!--  COR DA HELICE -->
+              <div class="color-container">
+                <h3 class="title">COR DA HELICE</h3>
+                <div class="colors">
+                  <span class="color" primary="#9932cc" color="helice"></span>
+                </div>
+              </div>
+              
+
+
+              <!-- COR HELICES
+              <div class="container-product">
+                <div class="nav">
+                    <span class="one active" onclick="changeColor(event)"></span>
+                    <i class="one"></i>
+                    <span class="two" onclick="changeColor(event)"></span>
+                    <i class="two"></i>
+                    <span class="three" onclick="changeColor(event)"></span>
+                    <i class="three"></i>
+                    <span class="four" onclick="changeColor(event)"></span>
+                    <i class="four"></i>
+                    <img src="./src/assets/tello-8.png">
+                </div>
+              </div>
+              COR HELICES-->
+
+
+
+
+
+              <div class="size-container">
+                <h3 class="title">size</h3>
+                <div class="sizes">
+                  <span class="size">7</span>
+                  <span class="size">8</span>
+                  <span class="size active">9</span>
+                  <span class="size">10</span>
+                  <span class="size">11</span>
+                </div>
+              </div>
+              <div class="buy-price">
+                <a href="#" class="buy">
+                  <span class="priceBtn">1</span>
+                  <i class="fas fa-shopping-cart"></i>
+                  Add to card
+                </a>
+                <div class="price">
+                  <h1>
+                    <i class="fas fa-dollar-sign"></i>
+                    208,90
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function changeColor(event){
+
+          document.querySelectorAll('span.active').forEach(function(item)
+          {
+              item.classList.remove('active')
+          })
+
+          event.target.classList.add('active')
+      }
+    </script>
+
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
